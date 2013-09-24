@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Peace Corps Mapdown</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+
+  <body>
+
+    <div class="header">
+      <div class="header-container">
+	<h2 class="title">Peace Corps Mapdown</h2>
+	<nav><p class="navi"><a href="#what">What</a> | <a href="#whenwhere">When</a> | <a href="#whenwhere">Where</a> | <a href="#how">How</a></p></nav>
+      </div>
+    </div>
+
+    <div class="section" id="below-header">
+      <h3 class="help">Help put your host country community on the digital map!</h3>
+      <h4 class="help-subtitle">Join us <em>Tuesday October 8th</em> at Peace Corps for a evening of service, socializing and skill-building.</h4>
+
+      <a class="btn" href="https://docs.google.com/forms/viewform?hl=en&id=10CJW-3nvX2fzKmB-I1puXi_tWRBxVB5GuGmnlST9fg4" target="_blank">Join Us!</a>
+
+      <div class="widget">
+	<img class="widget-img" src="widget1.png" alt="The Problem" />
+	<h3 class="widget-title">The Problem</h3>
+	<p class="widget-content" id="what">Poor quality community maps in Peace Corps serving countries.</p>
+	<br />
+	<br />
+	<br />
+      </div>
+
+      <div class="widget">
+	<img class="widget-img" src="widget2.jpg" alt="The Complication" />
+	<h3 class="widget-title">The Complication</h3>
+	<p class="widget-content">For-profit entities have little incentive to build digital maps of communities in the developing world. Most people in these communities lack the internet access to build the map themselves.</p>
+      </div>
+
+      <div class="widget">
+	<img class="widget-img" src="widget3.jpg" alt="The Solution" />
+	<h3 class="widget-title">The Solution</h3>
+	<p class="widget-content">Mobilize RPCV/PCV Teams to help map Peace Corps communities using the latest easy to use digital mapping tools. </p>
+	<br />
+	<br />
+      </div>
+
+      <div class="spacer"></div>
+
+    </div>
+
+    <div class="section">
+      <h3>What is the Peace Corps Mapdown?</h3>
+      <ul>
+	<li>The Peace Corps Mapdown is a fun competition to show pride for your country of service.</li>
+	<li>Team Captains mobilize and recruit Teams for three mapping events.</li>
+	<li>Mapping is completed in a simple, open source, digital mapping website called <a href="http://www.openstreetmap.org/#map=5/51.500/-0.100">OpenStreetMap</a>.</li>
+	<li>During the mapping events, each team will submit mapping edits via hashtags on <a href="http://www.openstreetmap.org/#map=5/51.500/-0.100">OpenStreetMap</a> to track changes.</li>
+	<li>Each participant will need to create a username and log in prior to the first event via <a href="http://www.openstreetmap.org/#map=5/51.500/-0.100">OpenStreetMap</a>.</li>
+	<li id="whenwhere">Lastly, this is a competition.  Recruit as many RPCVs, PCVs and friends to your team as possible.  It will increase your chances of winning the Peace Corps Mapdown Competition.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>I know nothing about digital mapping. Can I still participate?</h3>
+      <ul>
+	<li>Yes. The main activity will be tracing satellite imagery. Check out this video to see how easy it has become.</li>
+      </ul>
+
+      <iframe id="vimeo" src="http://player.vimeo.com/video/62308979" width="400" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
+
+    <div class="section">
+      <h3>When and where is the competition?</h3>
+      <ul>
+	<li>First Mapdown - Tuesday, October 8th, 2013.  The subsequent two mapping dates are TBD.</li>
+	<li>The First Mapdown will likely be held at Peace Corps Headquarters.</li>
+	<li id="how">Doors will open at 6pm followed by mapping from 6:30pm-8pm.  At 8pm, we will have a debrief at the Black Rooster Pub.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>How do you create a Peace Corps Mapdown Team?</h3>
+      <ul>
+	<li>Complete the sign-up form below and become a Team Captain.</li>
+	<li>Team Captain Responsibilities: recruit as many team members as you can and select a team name.</li>
+      </ul>
+
+      <a class="btn" href="https://docs.google.com/forms/viewform?hl=en&id=10CJW-3nvX2fzKmB-I1puXi_tWRBxVB5GuGmnlST9fg4" target="_blank">Sign Up Now!</a>
+
+    </div>
+
+    <div class="section">
+      <h3>What is OpenStreetMap?</h3>
+      <ul>
+	<li><a href="http://www.openstreetmap.org/#map=5/51.500/-0.100">OpenStreetMap</a> is a free, editable map of the whole world. All information added to the map is free for anyone to use.</li>
+
+	<li>The main way that users participate in <a href="http://www.openstreetmap.org/#map=5/51.500/-0.100">OpenStreetMap</a> is by editing the map. With a free user account, you can make improvements to the map for everyone.  Users help out by tracing roads and features via satellite imagery into the map.</li>
+      </ul>
+    </div>
+
+    <div class="section footer">
+      <p class="claimer">The Peace Corps Mapdown is an initiative of the <a href="http://www.peacecorps.gov/" target="_blank">Peace Corps</a>, a U.S. government agency.</p>
+      <p class="claimer">&copy; 2013 All Rights Reserved</p>
+    </div>
+
+  </body>
+</html>
+
+<!-- If you find any bugs on the website, please notify Chenheli Hua (huachenheli@outlook.com). Thank you. -->

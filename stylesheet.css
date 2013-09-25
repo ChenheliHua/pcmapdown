@@ -8,7 +8,15 @@ body
 {
     margin:0;
     font-family:HelveticaNeue-Light;
+}
 
+img.logo
+{
+    width:80px;
+    height:80px;
+    display:block;
+    float:left;
+    margin:0 20px 0 0px;
 }
 
     div.header
@@ -405,13 +413,19 @@ body
 	margin:auto;
     }
 
+    img.logo
+    {
+	display:none;
+    }
+
     h2.title
     {
 	text-align:center;
 	line-height:60px;
 	font-size:30px;
-	margin:auto;
 	padding:0;
+	margin:auto;
+	align:center;
 	width:100%;
     }
 

@@ -45,7 +45,7 @@ body
 	float:left;
     }
 
-    nav
+    div.nav
     {
 	float:right;
     }
@@ -212,7 +212,7 @@ body
 	background-image:none;
     }
 
-    nav
+    div.nav
     {
 	display:none;
     }

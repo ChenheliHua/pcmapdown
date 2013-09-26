@@ -186,7 +186,7 @@ img.logo
 	text-align:center;
     }
 
-@media screen and (min-width: 961px)
+@media screen and (min-width: 1081px)
 {
     html
     {
@@ -384,7 +384,7 @@ img.logo
 
 }
 
-@media screen and (max-width: 960px)
+@media screen and (max-width: 1080px)
 {
     html
     {

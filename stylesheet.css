@@ -577,4 +577,9 @@ img.logo
 	text-align:center;
     }
 
+    br
+    {
+	display:none;
+    }
+
 }

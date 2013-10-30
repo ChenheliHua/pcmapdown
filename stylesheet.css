@@ -10,6 +10,11 @@ body
     font-family:HelveticaNeue-Light;
 }
 
+img.results
+{
+    display:block;
+    margin:auto;
+}
 
 img.logo
 {

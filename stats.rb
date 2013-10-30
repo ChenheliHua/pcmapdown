@@ -21,7 +21,7 @@ def user_stats(name,start_time,end_time)
     time = Date.parse(cs.attributes['created_at'])
     
     if((time>=start_time)&&(time<=end_time))
-        changeset_ids << cs.attributes['id']
+      changeset_ids << cs.attributes['id']
     end
   end
 
@@ -48,8 +48,10 @@ def user_stats(name,start_time,end_time)
 
     # A hack to get correct number of immediate subtags of osmChange
     # due to unknown parsing behavior of REXML
-    tags = ((tags - 1)/2)
-
+    if tags>0
+      tags = ((tags - 1)/2)
+    end
+    
     # Added to total contribution
     contribution += tags
     
@@ -61,10 +63,57 @@ end
 
 # Time period to collect data
 # Parse format DD/MM/YYYY
-start_time = Date.parse('21/10/2013')
-end_time = Date.parse('23/10/2013')
+start_time = Date.parse('23/10/2013')
+end_time = Date.today #Date.parse('23/10/2013')
 
-users = [] # List of OpenStreetMap usernames. For privacy, delete the list after the data is collected. 
+users = [
+         'shazzie',
+         'Choquette33',
+         'iusoccer13',
+         'mjnormil',
+         'VanuatuGwen',
+         'kg_arm',
+         'Ninayeni',
+         'Mbigou',
+         'vtcraghead',
+         'sedgwica',
+         'cars0068',
+         'to_d',
+         'jmulqueen',
+         'annie89pease',
+         'thadk',
+         'Tom-AZ',
+         'kcoughlin',
+         'kdbah',
+         'Patrick%20Welsh',
+         'sunkaru',
+         'housh8',
+         'danbjoseph',
+         'jessicaluo',
+         'edeo',
+         'linfieldjosh',
+         'chrisarrr',
+         'm_full',
+         'Tova',
+         'BansangMolu',
+         'GWstudent007',
+         'agvelarde',
+         'kokobutts',
+         'gkrieshok',
+         'sizlars',
+         'mkennedy_g@yahoo.com',
+         'Ashley13aj',
+         'zosima',
+         'KBM',
+         'AzFaith',
+         'compassrose',
+         'zachs',
+         'bamba',
+         'astogner',
+         'girlfawkes',
+         'ABigApple'
+
+        ] # List of OpenStreetMap usernames. For privacy, delete the list after the data is collected. 
 
 f = File.open('data.csv','w')
 

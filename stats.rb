@@ -114,7 +114,11 @@ users = [
 'ABigApple',
 'Kwame%20Aboagye',
 'joeloula',
-'K%20Vee'
+'K%20Vee',
+'bethanybdavidson',
+'zqfmgb',
+'kmccormack',
+'slanning'
 
         ] # List of OpenStreetMap usernames. For privacy, delete the list after the data is collected. 
 

@@ -1,3 +1,6 @@
 # Ignore OS X file and backup files
 .DS_Store
 *~
+
+stats.rb
+data.csv
